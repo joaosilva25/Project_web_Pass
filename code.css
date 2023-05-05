@@ -1,0 +1,125 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    color:white;
+    font-family: 'Cinzel', serif;
+}
+body {
+    background-color:  rgb(21, 20, 53)
+    
+}
+
+
+header {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.carousel {
+    height: 470px;
+    background-color:  rgb(21, 20, 53);
+    gap:50px;
+}
+
+.banner1,.banner2,.banner3,.banner4 {
+    background-color:rgb(0, 0, 0);
+    height: 350px;
+    transition:0.5s ease-in-out;
+}
+
+.banner1 {
+    background-image: url("assets/images/smite.jpg");
+    background-size:cover;
+    background-position:center;
+
+}
+.banner2 {
+    background-image: url("assets/images/fifa.jpg");
+    background-size:cover;
+    background-position:center;
+
+}
+.banner3 {
+    background-image: url("assets/images/forza.jpg");
+    background-size:cover;
+    background-position:center;
+
+}
+.banner4 {
+    background-image: url("assets/images/overwatch.jpg");
+    background-size:cover;
+    background-position:center;
+
+}
+
+.banner1:not(:hover) {
+    opacity: 0.4;
+}
+.banner2:not(:hover) {
+    opacity: 0.4;
+}
+
+.banner3:not(:hover) {
+    opacity: 0.4;
+}
+
+.banner4:not(:hover) {
+    opacity: 0.4;
+}
+
+
+.banner1:hover {
+    transform: scale(1.2);
+    box-shadow: 5px 5px 55px rgb(226, 43, 128);
+}
+.banner2:hover {
+    transform: scale(1.2);
+    box-shadow: 5px 5px 55px rgb(226, 43, 128);
+}
+
+.banner3:hover {
+    transform: scale(1.2);
+    box-shadow: 5px 5px 55px rgb(226, 43, 128);
+}
+
+.banner4:hover {
+    transform: scale(1.2);
+    box-shadow: 5px 5px 55px rgb(226, 43, 128);
+}
+
+
+.search {
+    width:100%;
+    padding:8px;
+    background-color: transparent;
+    border:1px solid white;
+    border-radius: 15px;
+}
+
+h4 {
+    font-size:18px;
+}
+h5 {
+    font-size:15px;
+    word-wrap: none;
+}
+
+h5:hover {
+    background-color: rgb(226, 43, 128);
+    border-radius: 15px;
+    width:60px;
+    padding: 10px;
+    word-wrap: none;
+
+}
+
+.status {
+    position:relative;top:250px;
+}
+
+.icon {
+    color:rgb(255, 251, 0);
+    font-size:20px;
+    margin-top: 5px;
+}
